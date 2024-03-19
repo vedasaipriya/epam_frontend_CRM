@@ -1,0 +1,79 @@
+/*.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.dashboard {
+  margin-top: 30px;
+}
+
+.projects-table, .meetings-table {
+  width: 60%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.projects-table th, .projects-table td,
+.meetings-table th, .meetings-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.projects-table th, .meetings-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.projects-table td, .meetings-table td {
+  text-align: left;
+}
+
+.projects-table tr:nth-child(even),
+.meetings-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.projects-table tr:hover,
+.meetings-table tr:hover {
+  background-color: #ddd;
+}

@@ -1,0 +1,36 @@
+.customer-list {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.customer-list h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.customer-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.customer-list th,
+.customer-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.customer-list th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.customer-list tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.customer-list tbody tr:hover {
+    background-color: #ddd;
+}
+
